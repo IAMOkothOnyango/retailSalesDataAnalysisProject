@@ -308,6 +308,7 @@ FROM retail_sales;
 SELECT *
 FROM retail_sales
 WHERE total_sale > (SELECT AVG(total_sale) FROM retail_sales);
+```
 
 ---
 
